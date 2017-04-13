@@ -1,0 +1,27 @@
+{
+  "name": "jameslatten",
+  "version": "1.0.0",
+  "description": "Jameslatten.com's main NPM installation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesl1500/james-latten.git"
+  },
+  "author": "James Latten",
+  "license": "ISC",
+  "homepage": "https://github.com/jamesl1500/james-latten#readme",
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "forever": "^0.15.3",
+    "memcached": "^2.2.2",
+    "php-unserialize": "0.0.1",
+    "pm2": "^2.4.2",
+    "redis": "^2.7.0",
+    "socket.io": "^1.7.3"
+  }
+}
