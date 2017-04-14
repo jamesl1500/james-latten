@@ -16,5 +16,5 @@
     <link rel="stylesheet" type="text/css" href="<?php echo CSS; ?><?php echo $this->device; ?>/v<?php echo $this->version; ?>/<?php echo ucwords($this->stylesheet); ?>.css"/>
 </head>
 <body>
-<div class="website-main">
+<div class="website-main clearfix">
 

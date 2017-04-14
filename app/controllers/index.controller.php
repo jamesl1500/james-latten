@@ -26,7 +26,7 @@ class IndexController extends Controller
         $this->view->title = "Im James :)";
         $this->view->version = SITE_TEMPLATES_VER;
         $this->view->stylesheet = "index";
-        $this->view->javascript = "login";
+        $this->view->javascript = "index";
         $this->view->header = "header-logged-out";
 
         // Now create the view

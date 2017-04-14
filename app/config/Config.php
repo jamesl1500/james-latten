@@ -27,7 +27,7 @@ $config['javascript'] = array('jquery', 'socket.io', 'main');
 
 //-- 2. Site Info
 defined('SITE_NAME') or define('SITE_NAME', 'James Latten');
-defined('SITE_DESC') or define('SITE_DESC', 'Hi! My name is James Latten and im a passionate Freelance Web Developer that loves to code!');
+defined('SITE_DESC') or define('SITE_DESC', 'Hi, im James Latten. I design and build websites!');
 defined('SITE_TAGLINE') or define('SITE_TAGLINE', 'A freelance code ninja');
 defined('SITE_AUTHOR') or define('SITE_AUTHOR', 'James Latten');
 defined('SITE_UTF') or define('SITE_UTF', 'UTF-8');

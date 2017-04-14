@@ -5,10 +5,10 @@
 */
 
 // Dark Primary
-$darkPrimaryColor: #213246;
+$darkPrimaryColor: #2c3e50;
 
 // Primary 
-$primaryColor: #52a6e6;
+$primaryColor: #34495e;
 
 // Light Primary
 $lightPrimaryColor: #FFCDD2;
@@ -268,4 +268,13 @@ input{
 
 .global_warning {
   background: #f39c12
+}
+
+// Mixins
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
