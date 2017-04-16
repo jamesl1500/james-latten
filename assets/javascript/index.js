@@ -38,9 +38,11 @@ $(function(){
 
                     if(obj.code == 1)
                     {
-                        alert('good');
+                        alert(obj.status);
+                        busy = false;
                     }else{
-                        alert('bad');
+                        alert(obj.status);
+                        busy = false;
                     }
                 });
             }else{

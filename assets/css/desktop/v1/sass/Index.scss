@@ -357,6 +357,12 @@ $fullscreenBackground: "https://images.unsplash.com/photo-1489875347897-49f64b51
 
         .initialBigPicture{
           width: 300px;
+          @media screen and (max-width: 499px)
+          {
+            width: 100% !important;
+            float: none !important;
+          }
+
           height: 200px;
           overflow: hidden;
 
@@ -420,20 +426,41 @@ $fullscreenBackground: "https://images.unsplash.com/photo-1489875347897-49f64b51
       .mainBox.lefty{
         .initialBigPicture{
           float: left;
+
+          @media screen and (max-width: 499px)
+          {
+            float: none !important;
+          }
         }
 
         .infoForProject{
           margin-left: 330px;
+
+          @media screen and (max-width: 499px)
+          {
+            margin-left: 0px !important;
+          }
         }
       }
 
       .mainBox.righty{
         .initialBigPicture{
           float: right;
+
+          @media screen and (max-width: 499px)
+          {
+            float: none !important;
+          }
         }
 
         .infoForProject{
           margin-right: 330px;
+
+          @media screen and (max-width: 499px)
+          {
+            margin-top: 25px;
+            margin-right: 0px !important;
+          }
         }
       }
 
@@ -444,7 +471,7 @@ $fullscreenBackground: "https://images.unsplash.com/photo-1489875347897-49f64b51
   }
 }
 
-// My work box
+// My Hobbies box
 .myHobbies{
   width: 100%;
   height: auto;
@@ -491,44 +518,78 @@ $fullscreenBackground: "https://images.unsplash.com/photo-1489875347897-49f64b51
       }
     }
 
-    .bottomAskForHire{
-      text-align: center;
-      button{
-        padding: 1.4rem 3.2rem;
-        font-size: 1.2rem;
-        border: 2px solid $primaryColor;
-        color: $primaryColor;
+    .bottomMyHobbies{
 
-        @media screen and (max-width: 499px)
-        {
-          font-size: 1.0em;
+      .row{
+        margin: 0% auto;
+        float: none;
+
+        margin-bottom: 20px;
+
+        .hobbyBox{
+          height: auto;
+          margin-bottom: 10px;
+
+          .innerBox{
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            border-radius: 5px;
+
+            .topCont{
+              height: 350px;
+              border-bottom: 1px solid #eee;
+
+              .innerTopImageHold{
+                width: 100%;
+                height: 350px;
+
+                background-size: cover;
+                border-top-right-radius: 5px;
+                border-top-left-radius: 5px;
+              }
+
+              .innerTopImageHold:hover{
+                opacity: .7;
+                cursor: pointer;
+              }
+            }
+
+            .bottomMain{
+
+              .topBottomMain{
+                padding: 10px;
+
+                h3{
+                  color: #333;
+                  font-weight: 500;
+                  font-size: 1.1em;
+                }
+              }
+
+              .bottomBottomMain{
+
+                .bottomBtn{
+
+                  a{
+                    display: block;
+
+                    color: white;
+
+                    text-align: center;
+
+                    font-weight: 500;
+
+                    width: 100%;
+                    background: $primaryColor;
+                    padding: 16px 12px;
+
+                    border-bottom-right-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                  }
+                }
+              }
+            }
+          }
         }
-
-        font-weight: 700;
-        -webkit-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-        letter-spacing: 0;
-        border-radius: 50px;
-
-        background: white;
-        outline: none !important;
-      }
-
-      button:hover{
-        font-size: 1.2rem;
-        border: 2px solid white;
-        color: white;
-
-        font-weight: 700;
-        -webkit-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-        letter-spacing: 0;
-        border-radius: 50px;
-
-        background: $primaryColor;
-        padding: 1.4rem 3.6rem;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-
       }
     }
   }
@@ -720,6 +781,11 @@ $fullscreenBackground: "https://images.unsplash.com/photo-1489875347897-49f64b51
   left: 50%;
 
   height: 630px;
+
+  @media screen and (max-width: 499px)
+  {
+    height: 100vh;
+  }
 
   z-index: 100001;
 

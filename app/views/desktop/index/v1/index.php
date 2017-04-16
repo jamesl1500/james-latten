@@ -173,6 +173,20 @@
                     </div>
                 </div>
             </div>
+            <div class="mainBox righty">
+                <div class="initialBigPicture">
+                    <img class="pictureHold" src="<?php echo IMAGES; ?>fretx.png"/>
+                </div>
+                <div class="infoForProject">
+                    <div class="topHead">
+                        <h3>Fretx</h3>
+                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Redesign</h4>
+                    </div>
+                    <div class="bottomDescription">
+                        <p>I was able to do a complete redesign of an upcoming guitar training company! They're making the next generation learning program to teach people how to play guitar.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -185,33 +199,117 @@
                 <h3>My Hobbies</h3>
             </div>
             <div class="bottomInnerHead">
-                <p>My main hobby is ready, and writing but mostly reading. I love reading manga books mostly because they appeal to me more! Ive listed some of my favorite manga series below, check them out.</p>
+                <p>My main hobby is ready, and writing but mostly reading. I love reading manga books mostly because they appeal to me more! I also read poetry as we'll, sometimes I love to sit back and read all day. Ive listed some of my favorite manga series below, check them out.</p>
             </div>
         </div>
         <div class="bottomMyHobbies">
             <!-- First row -->
             <div class="row">
-                <div class="hobbyBox col-lg-3 col-md-3">
-
+                <div class="hobbyBox col-lg-4 col-md-4">
+                    <div class="innerBox">
+                        <div class="topCont">
+                            <div class="innerTopImageHold" style="background: url(https://images-na.ssl-images-amazon.com/images/I/81YUL9vvArL.jpg);background-size: cover;"></div>
+                        </div>
+                        <div class="bottomMain">
+                            <div class="topBottomMain">
+                                <h3>Neon Genesis: Evangelion</h3>
+                            </div>
+                            <div class="bottomBottomMain">
+                                <div class="bottomBtn">
+                                    <a href="http://amzn.to/2nQwWzT">Check it out!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="hobbyBox col-lg-3 col-md-3">
-
+                <div class="hobbyBox col-lg-4 col-md-4">
+                    <div class="innerBox">
+                        <div class="topCont">
+                            <div class="innerTopImageHold" style="background: url(https://images-na.ssl-images-amazon.com/images/I/81C79-6dNxL.jpg);background-size: cover;"></div>
+                        </div>
+                        <div class="bottomMain">
+                            <div class="topBottomMain">
+                                <h3>One Punch Man</h3>
+                            </div>
+                            <div class="bottomBottomMain">
+                                <div class="bottomBtn">
+                                    <a href="http://amzn.to/2poAypQ">Check it out!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="hobbyBox col-lg-3 col-md-3">
-
+                <div class="hobbyBox col-lg-4 col-md-4">
+                    <div class="innerBox">
+                        <div class="topCont">
+                            <div class="innerTopImageHold" style="background: url(https://images-na.ssl-images-amazon.com/images/I/51BlwJ2AGFL.jpg);background-position:center;background-size: cover;"></div>
+                        </div>
+                        <div class="bottomMain">
+                            <div class="topBottomMain">
+                                <h3>Mobile Suit Gundam</h3>
+                            </div>
+                            <div class="bottomBottomMain">
+                                <div class="bottomBtn">
+                                    <a href="http://amzn.to/2ozs92T">Check it out!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- Second row -->
             <div class="row">
-                <div class="hobbyBox col-lg-3 col-md-3">
-
+                <div class="hobbyBox col-lg-4 col-md-4">
+                    <div class="innerBox">
+                        <div class="topCont">
+                            <div class="innerTopImageHold" style="background: url(https://images-na.ssl-images-amazon.com/images/I/815xJbtOVfL.jpg);background-position:center;background-size: cover;"></div>
+                        </div>
+                        <div class="bottomMain">
+                            <div class="topBottomMain">
+                                <h3>Monster</h3>
+                            </div>
+                            <div class="bottomBottomMain">
+                                <div class="bottomBtn">
+                                    <a href="http://amzn.to/2oCR2MC">Check it out!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="hobbyBox col-lg-3 col-md-3">
-
+                <div class="hobbyBox col-lg-4 col-md-4">
+                    <div class="innerBox">
+                        <div class="topCont">
+                            <div class="innerTopImageHold" style="background: url(https://images-na.ssl-images-amazon.com/images/I/51pkyVfx1iL.jpg);background-position:center;background-size: cover;"></div>
+                        </div>
+                        <div class="bottomMain">
+                            <div class="topBottomMain">
+                                <h3>Akira</h3>
+                            </div>
+                            <div class="bottomBottomMain">
+                                <div class="bottomBtn">
+                                    <a href="http://amzn.to/2nQFcQe">Check it out!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="hobbyBox col-lg-3 col-md-3">
-
+                <div class="hobbyBox col-lg-4 col-md-4">
+                    <div class="innerBox">
+                        <div class="topCont">
+                            <div class="innerTopImageHold" style="background-position: center; background: url(https://images-na.ssl-images-amazon.com/images/I/41Af4JnmS8L.jpg);background-size: cover;"></div>
+                        </div>
+                        <div class="bottomMain">
+                            <div class="topBottomMain">
+                                <h3>Milk and Honey</h3>
+                            </div>
+                            <div class="bottomBottomMain">
+                                <div class="bottomBtn">
+                                    <a href="http://amzn.to/2p6AIFE">Check it out!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

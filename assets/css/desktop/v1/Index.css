@@ -17475,25 +17475,33 @@ a {
   border-radius: 5px;
 }
 
-/* line 366, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+@media screen and (max-width: 499px) {
+  /* line 358, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  .myWork .mainHold .bottomWork .mainBox .initialBigPicture {
+    width: 100% !important;
+    float: none !important;
+  }
+}
+
+/* line 372, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox .initialBigPicture img {
   width: 100%;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 5px;
 }
 
-/* line 373, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 379, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox .initialBigPicture.b {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 5px;
 }
 
-/* line 380, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 386, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox .infoForProject .topHead {
   margin-bottom: 15px;
 }
 
-/* line 383, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 389, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox .infoForProject .topHead h3 {
   font-size: 2.2em;
   font-weight: 500;
@@ -17501,7 +17509,7 @@ a {
   text-align: left;
 }
 
-/* line 391, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 397, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox .infoForProject .topHead h4 {
   padding-top: 5px;
   font-size: 1.0em;
@@ -17510,13 +17518,13 @@ a {
   color: #aaa;
 }
 
-/* line 400, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 406, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox .infoForProject .topHead h4 i {
   color: #52a6e6;
   font-size: 0.8em;
 }
 
-/* line 409, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 415, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox .infoForProject .bottomDescription p {
   font-weight: 400;
   font-size: 1.2em;
@@ -17524,39 +17532,68 @@ a {
   color: #333;
 }
 
-/* line 421, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 427, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox.lefty .initialBigPicture {
   float: left;
 }
 
-/* line 425, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+@media screen and (max-width: 499px) {
+  /* line 427, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  .myWork .mainHold .bottomWork .mainBox.lefty .initialBigPicture {
+    float: none !important;
+  }
+}
+
+/* line 436, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox.lefty .infoForProject {
   margin-left: 330px;
 }
 
-/* line 431, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+@media screen and (max-width: 499px) {
+  /* line 436, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  .myWork .mainHold .bottomWork .mainBox.lefty .infoForProject {
+    margin-left: 0px !important;
+  }
+}
+
+/* line 447, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox.righty .initialBigPicture {
   float: right;
 }
 
-/* line 435, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+@media screen and (max-width: 499px) {
+  /* line 447, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  .myWork .mainHold .bottomWork .mainBox.righty .initialBigPicture {
+    float: none !important;
+  }
+}
+
+/* line 456, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox.righty .infoForProject {
   margin-right: 330px;
 }
 
-/* line 440, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+@media screen and (max-width: 499px) {
+  /* line 456, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  .myWork .mainHold .bottomWork .mainBox.righty .infoForProject {
+    margin-top: 25px;
+    margin-right: 0px !important;
+  }
+}
+
+/* line 467, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myWork .mainHold .bottomWork .mainBox:last-child {
   border-bottom: none !important;
 }
 
-/* line 448, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 475, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myHobbies {
   width: 100%;
   height: auto;
   background: #fff;
 }
 
-/* line 454, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 481, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myHobbies .mainHold {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -17564,19 +17601,19 @@ a {
   margin: 0% auto;
 }
 
-/* line 461, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 488, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myHobbies .mainHold .topHead {
   margin-bottom: 80px;
 }
 
 @media screen and (max-width: 499px) {
-  /* line 461, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  /* line 488, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
   .myHobbies .mainHold .topHead {
     margin-bottom: 50px;
   }
 }
 
-/* line 470, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 497, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myHobbies .mainHold .topHead .topInnerHead h3 {
   font-size: 2.1rem;
   font-weight: 700;
@@ -17584,12 +17621,12 @@ a {
   color: #2c3e50;
 }
 
-/* line 479, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 506, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myHobbies .mainHold .topHead .bottomInnerHead {
   margin-top: 15px;
 }
 
-/* line 482, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 509, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .myHobbies .mainHold .topHead .bottomInnerHead p {
   font-size: 1.6rem;
   font-weight: 300;
@@ -17598,56 +17635,79 @@ a {
   color: #2c3e50;
 }
 
-/* line 494, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
-.myHobbies .mainHold .bottomAskForHire {
-  text-align: center;
+/* line 523, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+.myHobbies .mainHold .bottomMyHobbies .row {
+  margin: 0% auto;
+  float: none;
+  margin-bottom: 20px;
 }
 
-/* line 496, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
-.myHobbies .mainHold .bottomAskForHire button {
-  padding: 1.4rem 3.2rem;
-  font-size: 1.2rem;
-  border: 2px solid #52a6e6;
-  color: #52a6e6;
-  font-weight: 700;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  letter-spacing: 0;
-  border-radius: 50px;
-  background: white;
-  outline: none !important;
+/* line 529, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+.myHobbies .mainHold .bottomMyHobbies .row .hobbyBox {
+  height: auto;
+  margin-bottom: 10px;
 }
 
-@media screen and (max-width: 499px) {
-  /* line 496, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
-  .myHobbies .mainHold .bottomAskForHire button {
-    font-size: 1.0em;
-  }
+/* line 533, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+.myHobbies .mainHold .bottomMyHobbies .row .hobbyBox .innerBox {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
 }
 
-/* line 517, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
-.myHobbies .mainHold .bottomAskForHire button:hover {
-  font-size: 1.2rem;
-  border: 2px solid white;
+/* line 537, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+.myHobbies .mainHold .bottomMyHobbies .row .hobbyBox .innerBox .topCont {
+  height: 350px;
+  border-bottom: 1px solid #eee;
+}
+
+/* line 541, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+.myHobbies .mainHold .bottomMyHobbies .row .hobbyBox .innerBox .topCont .innerTopImageHold {
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+/* line 550, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+.myHobbies .mainHold .bottomMyHobbies .row .hobbyBox .innerBox .topCont .innerTopImageHold:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+/* line 558, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+.myHobbies .mainHold .bottomMyHobbies .row .hobbyBox .innerBox .bottomMain .topBottomMain {
+  padding: 10px;
+}
+
+/* line 561, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+.myHobbies .mainHold .bottomMyHobbies .row .hobbyBox .innerBox .bottomMain .topBottomMain h3 {
+  color: #333;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+/* line 572, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+.myHobbies .mainHold .bottomMyHobbies .row .hobbyBox .innerBox .bottomMain .bottomBottomMain .bottomBtn a {
+  display: block;
   color: white;
-  font-weight: 700;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  letter-spacing: 0;
-  border-radius: 50px;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
   background: #52a6e6;
-  padding: 1.4rem 3.6rem;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding: 16px 12px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
-/* line 540, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 601, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .availHire {
   width: 100%;
   height: auto;
   background: #52a6e6;
 }
 
-/* line 546, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 607, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .availHire .mainHold {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -17655,19 +17715,19 @@ a {
   margin: 0% auto;
 }
 
-/* line 553, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 614, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .availHire .mainHold .topHead {
   margin-bottom: 80px;
 }
 
 @media screen and (max-width: 499px) {
-  /* line 553, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  /* line 614, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
   .availHire .mainHold .topHead {
     margin-bottom: 50px;
   }
 }
 
-/* line 562, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 623, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .availHire .mainHold .topHead .topInnerHead h3 {
   font-size: 2.1rem;
   font-weight: 700;
@@ -17675,12 +17735,12 @@ a {
   color: white;
 }
 
-/* line 571, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 632, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .availHire .mainHold .topHead .bottomInnerHead {
   margin-top: 30px;
 }
 
-/* line 574, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 635, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .availHire .mainHold .topHead .bottomInnerHead p {
   font-size: 1.6rem;
   font-weight: 300;
@@ -17689,12 +17749,12 @@ a {
   color: white;
 }
 
-/* line 586, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 647, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .availHire .mainHold .bottomAskForHire {
   text-align: center;
 }
 
-/* line 588, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 649, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .availHire .mainHold .bottomAskForHire button {
   padding: 1.4rem 3.2rem;
   font-size: 1.2rem;
@@ -17710,13 +17770,13 @@ a {
 }
 
 @media screen and (max-width: 499px) {
-  /* line 588, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  /* line 649, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
   .availHire .mainHold .bottomAskForHire button {
     font-size: 1.0em;
   }
 }
 
-/* line 609, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 670, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .availHire .mainHold .bottomAskForHire button:hover {
   font-size: 1.2rem;
   border: 2px solid white;
@@ -17731,20 +17791,20 @@ a {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-/* line 629, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 690, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .footerMain {
   width: 100%;
   height: auto;
   background: #333;
 }
 
-/* line 635, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 696, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .footerMain .mainHold {
   float: none !important;
   margin: 0% auto;
 }
 
-/* line 643, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 704, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .footerMain .mainHold .topHead .topInnerHead .footerIcon {
   width: 80px;
   height: 80px;
@@ -17755,12 +17815,12 @@ a {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-/* line 657, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 718, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .footerMain .mainHold .topHead .bottomInnerHead {
   margin-top: 30px;
 }
 
-/* line 660, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 721, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .footerMain .mainHold .topHead .bottomInnerHead p {
   font-size: 1.1rem;
   font-weight: 500;
@@ -17769,22 +17829,22 @@ a {
   color: white;
 }
 
-/* line 672, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 733, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .footerMain .mainHold .socialMedia {
   margin-top: 30px;
 }
 
-/* line 675, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 736, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .footerMain .mainHold .socialMedia ul {
   text-align: center;
 }
 
-/* line 678, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 739, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .footerMain .mainHold .socialMedia ul li {
   display: inline-block;
 }
 
-/* line 681, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 742, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .footerMain .mainHold .socialMedia ul li a {
   display: inline-block;
   color: rgba(255, 255, 255, 0.6);
@@ -17800,7 +17860,7 @@ a {
   transition: all .3s ease-in-out;
 }
 
-/* line 696, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 757, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .footerMain .mainHold .socialMedia ul li a:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   background: white;
@@ -17809,7 +17869,7 @@ a {
   transition: all .3s ease-in-out;
 }
 
-/* line 711, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 772, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal {
   border-radius: 3px;
   padding: 0px !important;
@@ -17823,7 +17883,14 @@ a {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-/* line 730, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+@media screen and (max-width: 499px) {
+  /* line 772, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  .hireModal {
+    height: 100vh;
+  }
+}
+
+/* line 796, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal {
   width: 100%;
   height: 100%;
@@ -17831,23 +17898,23 @@ a {
 }
 
 @media screen and (max-width: 499px) {
-  /* line 730, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  /* line 796, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
   .hireModal .innerModal {
     background: rgba(52, 73, 94, 0.7);
   }
 }
 
-/* line 742, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 808, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .topModal {
   padding-top: 40px;
 }
 
-/* line 747, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 813, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .topModal .topText .topHeadText {
   padding-top: 40px;
 }
 
-/* line 750, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 816, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .topModal .topText .topHeadText h3 {
   text-align: center;
   color: white;
@@ -17855,14 +17922,14 @@ a {
   font-size: 2em;
 }
 
-/* line 759, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 825, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .topModal .topText .middleBody {
   padding-top: 20px;
   margin: 0% auto;
   float: none !important;
 }
 
-/* line 765, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 831, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .topModal .topText .middleBody p {
   font-weight: 400;
   font-size: 1.2em;
@@ -17870,24 +17937,24 @@ a {
   color: white;
 }
 
-/* line 777, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 843, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent {
   padding-top: 60px;
   float: none !important;
   margin: 0% auto;
 }
 
-/* line 783, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 849, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent form {
   text-align: center;
 }
 
-/* line 785, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 851, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent form .sideBySide {
   margin-bottom: 10px;
 }
 
-/* line 788, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 854, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent form .sideBySide input {
   border: 1px solid #eee;
   border-radius: 2px;
@@ -17899,24 +17966,24 @@ a {
   outline: none !important;
 }
 
-/* line 799, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 865, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent form .sideBySide .left {
   float: left;
   width: 49%;
 }
 
-/* line 804, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 870, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent form .sideBySide .right {
   float: right;
   width: 49%;
 }
 
-/* line 810, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 876, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent form .inputBlock {
   margin-bottom: 30px;
 }
 
-/* line 813, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 879, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent form .inputBlock textarea {
   width: 100%;
   height: 120px;
@@ -17929,7 +17996,7 @@ a {
   outline: none !important;
 }
 
-/* line 830, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 896, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent form input[type='submit'] {
   padding: 1.4rem 3.2rem;
   font-size: 1.2rem;
@@ -17945,13 +18012,13 @@ a {
 }
 
 @media screen and (max-width: 499px) {
-  /* line 830, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+  /* line 896, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
   .hireModal .innerModal .modalMainContent form input[type='submit'] {
     font-size: 1.0em;
   }
 }
 
-/* line 851, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 917, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent form input[type='submit']:hover {
   font-size: 1.2rem;
   border: 2px solid #52a6e6;
@@ -17966,18 +18033,18 @@ a {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-/* line 868, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 934, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hireModal .innerModal .modalMainContent form a {
   padding-left: 20px;
   color: #e74c3c;
 }
 
-/* line 877, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 943, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .hidden {
   display: none;
 }
 
-/* line 882, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
+/* line 948, /Applications/XAMPP/xamppfiles/htdocs/jameslatten.com/assets/css/desktop/v1/sass/Index.scss */
 .overlay {
   position: fixed;
   top: 0px;
