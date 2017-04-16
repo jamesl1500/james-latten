@@ -11,9 +11,3 @@ function checkLoginStatus()
     
 }
 
-// Start main socket
-var socket = new WebSocket("ws://localhost:8083");
-
-socket.onopen = function(e) {
-    console.log("Connection established!");
-};

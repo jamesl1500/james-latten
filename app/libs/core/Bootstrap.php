@@ -45,7 +45,7 @@ class Bootstrap
                 if($url[0] != "api")
                 {
                     // Lets route this single page then
-                    Sessions::set(CSRF_TOKEN_NAME, $this->hash);
+                    Sessions::set(CSRF_TOKEN_NAME, Validation::encrypt(Validation::randomHash()));
                     Router::Route($url[0]);
                 }else {
                     // This is an API call so route this to the api route function that handles every api(ajax) call
@@ -55,7 +55,7 @@ class Bootstrap
                         {
                             $api = new Api($url[1], $url[2], $_POST, $options = array('csrf' => $_POST['xhr_csrf_token'], 'xhr_true' => $_POST['xhr_true'], 'xhr_is_mobile' => $_POST['xhr_is_mobile']));
                         }else{
-                            echo json_encode(array('status' => 'Invalid Request', 'code' => 0));
+                            echo json_encode(array('status' => 'Invalid Request333', 'code' => 0));
                             return false;
                         }
                     } else {

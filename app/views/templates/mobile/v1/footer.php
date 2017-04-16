@@ -10,7 +10,7 @@
 <script>
     $.ajaxSetup({
         data: {
-            'xhr_csrf_token' : '<?php echo $_SESSION['JAMESLATTEN_TOKEN_CSRF']; ?>',
+            'xhr_csrf_token' : '<?php echo $_SESSION[CSRF_TOKEN_NAME]; ?>',
             'xhr_true' : 'true',
             'xhr_is_mobile' : <?php $mobile = new Mobile(); if($mobile->isMobile()){echo "true";}else{echo "false";}; ?>
         }

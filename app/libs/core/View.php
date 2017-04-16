@@ -35,7 +35,22 @@ class View
             }else if($this->mobile->isMobile())
             {
                 // Its on mobile
+                $path = VIEWS . 'mobile/' . $page . '/v' . $version . '/' . $name . '.php';
 
+                // Get the required templates
+                $header = VIEWS . 'templates/mobile/v' . $version . '/'.$this->header.'.php';
+                $footer = VIEWS . 'templates/mobile/v' . $version . '/footer.php';
+                $this->sidebar = VIEWS . 'templates/mobile/v' . $version . '/sidebar.php';
+
+                // Make sure the files exist
+                if(file_exists($path))
+                {
+                    require $header;
+                    require $path;
+                    require $footer;
+                }else{
+                    Redirect::to('errors', '404');
+                }
             }else{
                 // Its on desktop
                 $path = VIEWS . 'desktop/' . $page . '/v' . $version . '/' . $name . '.php';
