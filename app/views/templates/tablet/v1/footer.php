@@ -1,4 +1,4 @@
-</div>
+</main>
 <script src="<?php echo JAVASCRIPT; ?>core/jquery.js" type="text/javascript" ></script>
 <?php require $this->sidebar; ?>
 <?php if(isset($this->page)){ ?>

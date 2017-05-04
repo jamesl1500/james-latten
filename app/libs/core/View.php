@@ -31,7 +31,22 @@ class View
             if($this->mobile->isTablet())
             {
                 // Its a tablet
+                $path = VIEWS . 'tablet/' . $page . '/v' . $version . '/' . $name . '.php';
 
+                // Get the required templates
+                $header = VIEWS . 'templates/tablet/v' . $version . '/'.$this->header.'.php';
+                $footer = VIEWS . 'templates/tablet/v' . $version . '/footer.php';
+                $this->sidebar = VIEWS . 'templates/tablet/v' . $version . '/sidebar.php';
+
+                // Make sure the files exist
+                if(file_exists($path))
+                {
+                    require $header;
+                    require $path;
+                    require $footer;
+                }else{
+                    Redirect::to('errors', '404');
+                }
             }else if($this->mobile->isMobile())
             {
                 // Its on mobile

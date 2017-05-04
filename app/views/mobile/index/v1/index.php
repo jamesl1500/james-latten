@@ -1,5 +1,5 @@
 <!-- Modal: Hire modal -->
-<div class="hireModal hidden col-lg-8 col-md-8 col-sm-10 col-xs-12">
+<div class="hireModal hidden col-lg-8 col-md-8 col-sm-10 col-xs-11">
     <div class="innerModal">
         <div class="topModal">
             <div class="iconTopAgain">
@@ -33,7 +33,7 @@
     </div>
 </div><div class="overlay"></div>
 <!-- Start of Fullscreen here cover -->
-<div class="site-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
+<section class="site-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
     <div class="site-wrapper-inner cover col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="middleBang">
             <div class="topIconFirst animated fadeInUp">
@@ -42,7 +42,7 @@
             <div class="middleInfoActions">
                 <div class="middleText col-lg-8 col-md-8">
                     <p class=""><?php echo SITE_DESC; ?></p>
-
+                    
                     <div class="workAvailabilityBtn">
                         <button class="availHireBtn">Yes! Im available for hire</button>
                     </div>
@@ -56,10 +56,10 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- Start of expertise container -->
-<div class="firstCont myExpertise jumbotron clearfix">
+<section class="firstCont myExpertise jumbotron clearfix">
     <div class="mainHold">
         <div class="topHead">
             <div class="topInnerHead">
@@ -117,10 +117,10 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- Start of my work container -->
-<div class="thirdCont myWork jumbotron clearfix" id="">
+<section class="thirdCont myWork jumbotron clearfix" id="">
     <div class="mainHold col-lg-8 col-md-8">
         <div class="topHead">
             <div class="topInnerHead">
@@ -189,10 +189,10 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- Start of my hobbies section -->
-<div class="fourthCont myHobbies jumbotron clearfix" id="">
+<section class="fourthCont myHobbies jumbotron clearfix" id="">
     <div class="mainHold col-lg-8 col-md-8">
         <div class="topHead">
             <div class="topInnerHead">
@@ -314,10 +314,10 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- Start of Available for hire cont -->
-<div class="fifthCont availHire jumbotron clearfix" id="availHire">
+<section class="fifthCont availHire jumbotron clearfix" id="availHire">
     <div class="mainHold col-lg-8 col-md-8">
         <div class="topHead">
             <div class="topInnerHead">
@@ -331,10 +331,10 @@
             <button class="startHireModal">Lets get started</button>
         </div>
     </div>
-</div>
+</section>
 
 <!-- Start of footer -->
-<div class="sixthCont footerMain jumbotron clearfix" id="">
+<section class="sixthCont footerMain jumbotron clearfix" id="">
     <div class="mainHold col-lg-8 col-md-8">
         <div class="topHead">
             <div class="topInnerHead">
@@ -352,14 +352,4 @@
             </ul>
         </div>
     </div>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- jameslatten -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-4631696789933007"
-         data-ad-slot="1038253972"
-         data-ad-format="auto"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</div>
+</section>

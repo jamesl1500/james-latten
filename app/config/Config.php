@@ -35,7 +35,7 @@ defined('SITE_LANG') or define('SITE_LANG', 'en');
 defined('SITE_TAG') or define('SITE_TAGS','freelancer, web developer, php, html, Css, JavaScript, WordPress, Shopify, WebSockets, GIT, web design, PhotoShop, sass');
 defined('SITE_VER') or define('SITE_VER','0.0.1');
 defined('SITE_TEMPLATES_VER') or define('SITE_TEMPLATES_VER','1');
-defined('SITE_LOGO') or define('SITE_LOGO','frindse-circle-logo.jpg');
+defined('SITE_LOGO') or define('SITE_LOGO','james-logo.jpg');
 define('DS', DIRECTORY_SEPARATOR);
 
 defined('PASSWORD_HASH_METHOD') or define('PASSWORD_HASH_METHOD', PASSWORD_BCRYPT);
