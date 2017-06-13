@@ -204,7 +204,10 @@ $fullscreenBackground: "https://images.unsplash.com/photo-1489875347897-49f64b51
 			
 			h3{
 				font-size: 1.5em;
-				font-weight: 300;
+				
+				b{
+					font-weight: 400;
+				}
 				
 				padding-bottom: 10px;
 			}
