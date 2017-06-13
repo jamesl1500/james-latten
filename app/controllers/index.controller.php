@@ -11,7 +11,7 @@ class IndexController extends Controller
         // Initiate the device
         if($this->view->mobile->isTablet())
         {
-            $this->view->device = "desktop";
+            $this->view->device = "tablet";
         }else if($this->view->mobile->isMoble())
         {
             $this->view->device = "mobile";

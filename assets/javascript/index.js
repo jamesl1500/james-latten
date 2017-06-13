@@ -1,6 +1,6 @@
 $(function(){
     var busy = false;
-    var folder = "/jameslatten.com";
+    var folder = "";
 
     $(".startHireModal").click(function(){
         $(".hireModal").removeClass('hidden');

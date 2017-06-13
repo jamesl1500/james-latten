@@ -1,0 +1,280 @@
+/* Style Config for James Latten
+   
+   Author: James Latten
+   Copyright: James Latten @ 2017
+*/
+
+// Dark Primary
+$darkPrimaryColor: #2c3e50;
+
+// Primary 
+$primaryColor: #34495e;
+
+// Light Primary
+$lightPrimaryColor: #FFCDD2;
+
+// Accent Color
+$accentColor: #FF5252;
+
+// Primary Text Color
+$primaryText: #212121;
+
+// Secondary Text Color
+$secondaryText: #727272;
+
+// Grey Text Color
+$greyText: #aaa;
+
+// Divider Color
+$dividerColor: #B6B6B6;
+
+// Primary Font
+$primaryFont: 'Roboto';
+
+$primaryblue:   #50a3e2;
+$primarygreen:  #1abc9c;
+$primarypink:   #ff4081;
+$primaryred:    #e74c3c;
+$primarypurple: #673ab7;
+$primaryorange: #ff9460;
+$primarygrey: #bdc3c7;
+$primaryyellow: #f1c40f;
+$primarynavy: #34495e;
+
+$primarysuccess: #2ecc71;
+
+
+// The app url
+$primaryAppUrl: 'http://localhost/jameslatten.com/';
+
+body{
+  background: #f1f1f1;
+}
+
+.hidden{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+// Inputs
+input{
+  outline: none !important;
+}
+
+.website-overlay{
+  position: -webkit-sticky;
+  position: sticky;
+
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 10001;
+
+  background: rgba(0,0,0,.6);
+
+  display: none;
+}
+
+.website-main{
+  background: #f1f1f1;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+// Inputs & buttons
+.inputType{
+  margin-bottom: 10px;
+
+  input[type='email'], input[type='text'], input[type='password']
+  {
+    border: 1px solid #eee;
+    border-radius: 2px;
+    font-weight: 500;
+    color: #212121;
+    width: 100%;
+    padding: 12px;
+    padding-left: 14px;
+  }
+
+  input[type='email']:focus, input[type='text']:focus, input[type='password']:focus {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  input[type='submit']{
+    padding: 14px 16px;
+    font-size: 1.0rem;
+    letter-spacing: .007px;
+    font-weight: 500;
+    border: none;
+
+    border-radius: 2px;
+  }
+
+  label{
+    padding-bottom: 8px;
+    color: $secondaryText;
+    font-weight: 100;
+  }
+}
+
+.inputType:last-child{
+  margin-bottom: 0px;
+}
+
+.btn {
+  padding: 10px 16px;
+  font-size: 1.0rem;
+  letter-spacing: .007px;
+  font-weight: 500;
+  border: none;
+
+  border-radius: 2px;
+}
+
+.buttonLong{
+  width: 100%;
+}
+
+.primaryBTN{
+  background: $primaryColor;
+  color: white !important;
+}
+
+.busyBTN{
+  background: $primarygrey !important;
+  color: #333 !important;
+}
+
+/**
+*  Cards
+**/
+.card-default{
+  background: white;
+}
+
+.card-center{
+  margin:0% auto !important;
+  float: none !important;
+}
+
+.card{
+  border-radius: 2px;
+
+  box-shadow: 0 2px 0 0 rgba(0,0,0,.1);
+  border-bottom: 1px solid #F9F9F9;
+
+  height: auto;
+}
+
+.card-material{
+  border-radius: 2px;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-bottom: 1px solid #F9F9F9;
+
+  height: auto;
+}
+
+.cardHead{
+  padding: 15px;
+  padding-bottom: 0px;
+
+  h3{
+    color: #aaa;
+    font-weight: 500;
+  }
+}
+
+.card-padding{
+  padding: 20px;
+}
+
+/**
+*  Alert boxes
+**/
+.response{
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,0.2);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+
+}
+
+.error{
+  @extend .response;
+
+  background: $primaryred;
+  color: white;
+}
+
+.success{
+  @extend .response;
+
+  background: $primarysuccess;
+  color: white;
+}
+
+.global_response_holder {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  right: 0px;
+  top: 0;
+  z-index: 2000;
+  text-align: center;
+}
+
+.global_response_holder center p {
+  padding: 0px;
+  color: #fff;
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+
+.global_error {
+  background: #e74c3c
+}
+
+.global_success {
+  background: #1abc9c
+}
+
+.global_warning {
+  background: #f39c12
+}
+
+// Mixins
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
