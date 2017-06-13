@@ -13,11 +13,24 @@
         </div>
     </div>
 </section>
-<section class="mainBoxFloat container">
+<section class="mainBoxFloat col-lg-7">
 	<div class="innerMain">
-		<p>
-			Hi! My name is James Latten, and I'm a freelance Web Developer. Also I'm the owner of Sitelyft Studios which is a Web Development team that specializes in a wide variety of different services.
-		</p>
+		<div class="block">
+			<h3><b>Who is James Latten?</b></h3>
+			<p>I'm, a young entrepreneur and Fullstack Web Developer. I've been programming and designing websites for the past 8 years of my life. I've been in the business of professional freelancing for 3 years now and trust me, these have been the best 3 years of my life!</p>
+		</div>
+		<div class="block">
+			<h3><b>My Skillset</b></h3>
+			<p>Over the years I've acquired a lot of knowledge of Web Development. I've learned many programming languages, tools and techniques. Bellow is a list of some of the skills I've acquired in my 8 years of programming:</p>
+			<ul>
+				<li>1. HTML &middot; <span class="color">Expert</span></li>
+				<li>2. CSS &middot; <span class="color">Expert</span></li>
+				<li>3. PHP &middot; <span class="color">Expert</span></li>
+				<li>4. JavaScript &middot; <span class="color">Experienced</span></li>
+				<li>5. PHP &middot; <span class="color">Expert</span></li>
+				<li>6. JavaScript &middot; <span class="color">Experienced</span></li>
+			</ul>
+		</div>
 	</div>
 </section>
 <!-- Start of footer -->
