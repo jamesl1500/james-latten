@@ -13,13 +13,6 @@
         </div>
     </div>
 </section>
-<<<<<<< HEAD
-<section class="mainBoxFloat container">
-	<div class="innerMain">
-		<p>
-			Hi! My name is James Latten, and I'm a freelance Web Developer. Also I'm the owner of Sitelyft Studios which is a Web Development team that specializes in a wide variety of different services.
-		</p>
-=======
 <section class="mainBoxFloat col-lg-7" id="hire">
 	<div class="innerMain">
 		<div class="block">
@@ -57,7 +50,6 @@
 				</p>
 			</div>
 		</div>
->>>>>>> origin/MAIN
 	</div>
 </section>
 <!-- Start of footer -->
@@ -78,8 +70,6 @@
                 <li><a href="https://github.com/jamesl1500"><i class="fa fa-github"></i></a></li>
             </ul>
         </div>
-<<<<<<< HEAD
-=======
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- jameslatten.me -->
 <ins class="adsbygoogle"
@@ -90,6 +80,5 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
->>>>>>> origin/MAIN
     </div>
 </section>

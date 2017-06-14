@@ -182,34 +182,18 @@ $fullscreenBackground: "https://images.unsplash.com/photo-1489875347897-49f64b51
 
 .mainBoxFloat{
 	margin: 0% auto;
-<<<<<<< HEAD
-=======
 	float: none;
->>>>>>> origin/MAIN
 	
 	background: white;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	
 	border-radius: 3px;
 	
-<<<<<<< HEAD
-	height: 300px;
-=======
 	height: auto;
->>>>>>> origin/MAIN
 	
 	position: relative;
 	top: -100px;
 	
-<<<<<<< HEAD
-	padding: 50px;
-	
-	.innerMain{
-					@include vertical-align();
-		p{
-			text-align: center;
-			line-height: 1.4;
-=======
 	padding: 40px;
 	
 	.innerMain{
@@ -246,7 +230,6 @@ $fullscreenBackground: "https://images.unsplash.com/photo-1489875347897-49f64b51
 					}
 				}
 			}
->>>>>>> origin/MAIN
 		}
 	}
 }
@@ -333,13 +316,10 @@ $fullscreenBackground: "https://images.unsplash.com/photo-1489875347897-49f64b51
       }
     }
   }
-<<<<<<< HEAD
-=======
 }
 .in{
 	background: #F5F7FA;
 	padding: 30px;
 	
 	border-radius: 3px;
->>>>>>> origin/MAIN
 }

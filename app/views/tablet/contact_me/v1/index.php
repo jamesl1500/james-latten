@@ -60,8 +60,6 @@
                 <li><a href="https://github.com/jamesl1500"><i class="fa fa-github"></i></a></li>
             </ul>
         </div>
-<<<<<<< HEAD
-=======
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- jameslatten.me -->
 <ins class="adsbygoogle"
@@ -72,6 +70,5 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
->>>>>>> origin/MAIN
     </div>
 </section>

@@ -1,5 +1,5 @@
 <!-- Modal: Hire modal -->
-<div class="hireModal hidden col-lg-8 col-md-8 col-sm-10 col-xs-11">
+<div class="hireModal hidden col-lg-8 col-md-8 col-sm-10 col-xs-12">
     <div class="innerModal">
         <div class="topModal">
             <div class="iconTopAgain">
@@ -33,7 +33,7 @@
     </div>
 </div><div class="overlay"></div>
 <!-- Start of Fullscreen here cover -->
-<section class="site-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
+<div class="site-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
     <div class="site-wrapper-inner cover col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="middleBang">
             <div class="topIconFirst animated fadeInUp">
@@ -42,7 +42,7 @@
             <div class="middleInfoActions">
                 <div class="middleText col-lg-8 col-md-8">
                     <p class=""><?php echo SITE_DESC; ?></p>
-                    
+
                     <div class="workAvailabilityBtn">
                         <button class="availHireBtn">Yes! Im available for hire</button>
                     </div>
@@ -58,10 +58,10 @@
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <!-- Start of expertise container -->
-<section class="firstCont myExpertise jumbotron clearfix">
+<div class="firstCont myExpertise jumbotron clearfix">
     <div class="mainHold">
         <div class="topHead">
             <div class="topInnerHead">
@@ -119,10 +119,10 @@
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <!-- Start of my work container -->
-<section class="thirdCont myWork jumbotron clearfix" id="">
+<div class="thirdCont myWork jumbotron clearfix" id="">
     <div class="mainHold col-lg-8 col-md-8">
         <div class="topHead">
             <div class="topInnerHead">
@@ -135,11 +135,53 @@
         <div class="bottomWork">
             <div class="mainBox lefty">
                 <div class="initialBigPicture">
+                    <img class="pictureHold" src="<?php echo IMAGES; ?>portfolio/jameslatten.me/jameslatten_me_one.png"/>
+                </div>
+                <div class="infoForProject">
+                    <div class="topHead">
+                        <a href="http://jameslatten.me/index"><h3>Jameslatten</h3></a>
+                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Website</h4>
+                    </div>
+                    <div class="bottomDescription">
+                        <p>This is my portfolio website that shows who I am and what I do! I custom built the design and backend of this.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainBox righty">
+                <div class="initialBigPicture">
+                    <img class="pictureHold" src="<?php echo IMAGES; ?>portfolio/blog.jameslatten.me/blog_jameslatten_me_one.png"/>
+                </div>
+                <div class="infoForProject">
+                    <div class="topHead">
+                        <a href="http://blog.jameslatten.me/"><h3>Jays Tech World</h3></a>
+                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Design, Custom WordPress theme</h4>
+                    </div>
+                    <div class="bottomDescription">
+                        <p>This is my new blog where I post things about technology and Web Development! Also I love poetry so of course I post a lot of quotes and poetry as well.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainBox lefty">
+                <div class="initialBigPicture">
+                    <img class="pictureHold" src="<?php echo IMAGES; ?>portfolio/sitelyftstudios.com/sitelyft_one.png"/>
+                </div>
+                <div class="infoForProject">
+                    <div class="topHead">
+                        <a href="http://sitelyftstudios.com/"><h3>Sitelyft Studios</h3></a>
+                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Website</h4>
+                    </div>
+                    <div class="bottomDescription">
+                        <p>Sitelyft Studios is a Web Development team that specializes in making Websites. I completed this website all by myself and had it up and launched in two days.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainBox righty">
+                <div class="initialBigPicture">
                     <img class="pictureHold" src="<?php echo IMAGES; ?>invoicer.png"/>
                 </div>
                 <div class="infoForProject">
                     <div class="topHead">
-                        <h3>Invoicer</h3>
+                        <a href="http://getinvoicer.com/"><h3>Invoicer</h3></a>
                         <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> PSD to HTML, Custom WordPress Theme</h4>
                     </div>
                     <div class="bottomDescription">
@@ -147,7 +189,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mainBox righty">
+            <div class="mainBox lefty">
                 <div class="initialBigPicture b">
                     <img class="pictureHold" src="<?php echo IMAGES; ?>frindse.jpeg"/>
                 </div>
@@ -161,40 +203,12 @@
                     </div>
                 </div>
             </div>
-            <div class="mainBox lefty">
-                <div class="initialBigPicture">
-                    <img class="pictureHold" src="<?php echo IMAGES; ?>sitelyft.png"/>
-                </div>
-                <div class="infoForProject">
-                    <div class="topHead">
-                        <h3>Sitelyft Studios</h3>
-                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Website</h4>
-                    </div>
-                    <div class="bottomDescription">
-                        <p>Sitelyft Studios is a web development team that im putting together. I completed this website all by myself and had it up and launched in two days.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="mainBox righty">
-                <div class="initialBigPicture">
-                    <img class="pictureHold" src="<?php echo IMAGES; ?>fretx.png"/>
-                </div>
-                <div class="infoForProject">
-                    <div class="topHead">
-                        <h3>Fretx</h3>
-                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Redesign</h4>
-                    </div>
-                    <div class="bottomDescription">
-                        <p>I was able to do a complete redesign of an upcoming guitar training company! They're making the next generation learning program to teach people how to play guitar.</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-</section>
+</div>
 
 <!-- Start of my hobbies section -->
-<section class="fourthCont myHobbies jumbotron clearfix" id="">
+<div class="fourthCont myHobbies jumbotron clearfix" id="">
     <div class="mainHold col-lg-8 col-md-8">
         <div class="topHead">
             <div class="topInnerHead">
@@ -316,10 +330,10 @@
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <!-- Start of Available for hire cont -->
-<section class="fifthCont availHire jumbotron clearfix" id="availHire">
+<div class="fifthCont availHire jumbotron clearfix" id="availHire">
     <div class="mainHold col-lg-8 col-md-8">
         <div class="topHead">
             <div class="topInnerHead">
@@ -333,10 +347,10 @@
             <button class="startHireModal">Lets get started</button>
         </div>
     </div>
-</section>
+</div>
 
 <!-- Start of footer -->
-<section class="sixthCont footerMain jumbotron clearfix" id="">
+<div class="sixthCont footerMain jumbotron clearfix" id="">
     <div class="mainHold col-lg-8 col-md-8">
         <div class="topHead">
             <div class="topInnerHead">
@@ -354,4 +368,14 @@
             </ul>
         </div>
     </div>
-</section>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- jameslatten -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-4631696789933007"
+         data-ad-slot="1038253972"
+         data-ad-format="auto"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>

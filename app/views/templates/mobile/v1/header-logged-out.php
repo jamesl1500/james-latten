@@ -22,10 +22,7 @@
 		<li><a href="<?php echo APP_URL; ?>index">Home</a></li>
 		<li><a href="<?php echo APP_URL; ?>about_me">About Me</a></li>
 		<li><a href="<?php echo APP_URL; ?>my_work">My Work</a></li>
-<<<<<<< HEAD
-=======
 		<li><a href="http://blog.jameslatten.me">Blog</a></li>
->>>>>>> origin/MAIN
 		<li style="margin-right: 0px;"><a href="<?php echo APP_URL; ?>contact_me">Contact Me</a></li>
 	</ul>
 </nav>

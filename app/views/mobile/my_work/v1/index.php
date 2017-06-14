@@ -27,11 +27,53 @@
         <div class="bottomWork">
             <div class="mainBox lefty">
                 <div class="initialBigPicture">
+                    <img class="pictureHold" src="<?php echo IMAGES; ?>portfolio/jameslatten.me/jameslatten_me_one.png"/>
+                </div>
+                <div class="infoForProject">
+                    <div class="topHead">
+                        <a href="http://jameslatten.me/index"><h3>Jameslatten</h3></a>
+                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Website</h4>
+                    </div>
+                    <div class="bottomDescription">
+                        <p>This is my portfolio website that shows who I am and what I do! I custom built the design and backend of this.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainBox righty">
+                <div class="initialBigPicture">
+                    <img class="pictureHold" src="<?php echo IMAGES; ?>portfolio/blog.jameslatten.me/blog_jameslatten_me_one.png"/>
+                </div>
+                <div class="infoForProject">
+                    <div class="topHead">
+                        <a href="http://blog.jameslatten.me/"><h3>Jays Tech World</h3></a>
+                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Design, Custom WordPress theme</h4>
+                    </div>
+                    <div class="bottomDescription">
+                        <p>This is my new blog where I post things about technology and Web Development! Also I love poetry so of course I post a lot of quotes and poetry as well.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainBox lefty">
+                <div class="initialBigPicture">
+                    <img class="pictureHold" src="<?php echo IMAGES; ?>portfolio/sitelyftstudios.com/sitelyft_one.png"/>
+                </div>
+                <div class="infoForProject">
+                    <div class="topHead">
+                        <a href="http://sitelyftstudios.com/"><h3>Sitelyft Studios</h3></a>
+                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Website</h4>
+                    </div>
+                    <div class="bottomDescription">
+                        <p>Sitelyft Studios is a Web Development team that specializes in making Websites. I completed this website all by myself and had it up and launched in two days.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainBox righty">
+                <div class="initialBigPicture">
                     <img class="pictureHold" src="<?php echo IMAGES; ?>invoicer.png"/>
                 </div>
                 <div class="infoForProject">
                     <div class="topHead">
-                        <h3>Invoicer</h3>
+                        <a href="http://getinvoicer.com/"><h3>Invoicer</h3></a>
                         <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> PSD to HTML, Custom WordPress Theme</h4>
                     </div>
                     <div class="bottomDescription">
@@ -39,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mainBox righty">
+            <div class="mainBox lefty">
                 <div class="initialBigPicture b">
                     <img class="pictureHold" src="<?php echo IMAGES; ?>frindse.jpeg"/>
                 </div>
@@ -50,34 +92,6 @@
                     </div>
                     <div class="bottomDescription">
                         <p>Frindse is a upcoming social network that I'm currently developing! Its built on a custom framework that I personally created myself.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="mainBox lefty">
-                <div class="initialBigPicture">
-                    <img class="pictureHold" src="<?php echo IMAGES; ?>sitelyft.png"/>
-                </div>
-                <div class="infoForProject">
-                    <div class="topHead">
-                        <h3>Sitelyft Studios</h3>
-                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Website</h4>
-                    </div>
-                    <div class="bottomDescription">
-                        <p>Sitelyft Studios is a web development team that im putting together. I completed this website all by myself and had it up and launched in two days.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="mainBox righty">
-                <div class="initialBigPicture">
-                    <img class="pictureHold" src="<?php echo IMAGES; ?>fretx.png"/>
-                </div>
-                <div class="infoForProject">
-                    <div class="topHead">
-                        <h3>Fretx</h3>
-                        <h4 class="type"><i class="fa fa-circle" aria-hidden="true"></i> UX/UI Design, Custom Redesign</h4>
-                    </div>
-                    <div class="bottomDescription">
-                        <p>I was able to do a complete redesign of an upcoming guitar training company! They're making the next generation learning program to teach people how to play guitar.</p>
                     </div>
                 </div>
             </div>
@@ -103,8 +117,6 @@
                 <li><a href="https://github.com/jamesl1500"><i class="fa fa-github"></i></a></li>
             </ul>
         </div>
-<<<<<<< HEAD
-=======
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- jameslatten.me -->
 <ins class="adsbygoogle"
@@ -115,6 +127,5 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
->>>>>>> origin/MAIN
     </div>
 </section>
