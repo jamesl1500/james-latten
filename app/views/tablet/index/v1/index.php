@@ -49,10 +49,12 @@
                 </div>
             </div>
             <div class="callToBtn">
-                <div class="viewMoreOfMe">
+                <!-- 
+<div class="viewMoreOfMe">
                     <p>Learn more about what i do</p>
                     <div><i class="fa fa-fw fa-caret-down" aria-hidden="true"></i></div>
                 </div>
+ -->
             </div>
         </div>
     </div>
@@ -351,5 +353,15 @@
                 <li><a href="https://github.com/jamesl1500"><i class="fa fa-github"></i></a></li>
             </ul>
         </div>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- jameslatten.me -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4631696789933007"
+     data-ad-slot="9133585976"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     </div>
 </section>

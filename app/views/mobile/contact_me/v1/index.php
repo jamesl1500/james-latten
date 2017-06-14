@@ -60,5 +60,18 @@
                 <li><a href="https://github.com/jamesl1500"><i class="fa fa-github"></i></a></li>
             </ul>
         </div>
+<<<<<<< HEAD
+=======
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- jameslatten.me -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4631696789933007"
+     data-ad-slot="9133585976"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+>>>>>>> origin/MAIN
     </div>
 </section>

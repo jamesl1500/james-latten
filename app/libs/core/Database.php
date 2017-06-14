@@ -17,6 +17,6 @@ class Database extends PDO
 
     public function __construct()
     {
-        parent::__construct($this->socket . ':host=' . $this->host . ';dbname=' . $this->dbname, $this->username, $this->password, $this->options);
+        @parent::__construct($this->socket . ':host=' . $this->host . ';dbname=' . $this->dbname, $this->username, $this->password, $this->options);
     }
 }
