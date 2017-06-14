@@ -49,10 +49,12 @@
                 </div>
             </div>
             <div class="callToBtn">
-                <div class="viewMoreOfMe">
+                <!-- 
+<div class="viewMoreOfMe">
                     <p>Learn more about what i do</p>
                     <div><i class="fa fa-fw fa-caret-down" aria-hidden="true"></i></div>
                 </div>
+ -->
             </div>
         </div>
     </div>
