@@ -33,5 +33,6 @@ if(isset($this->javascript) && $this->javascript != "") {
     <?php
 }
 ?>
+<script src='https://plasso.com/embed/v3/e.js'></script>
 </body>
 </html>

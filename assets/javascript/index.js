@@ -8,9 +8,11 @@ $(function(){
     });
 
     $(".availHireBtn").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#availHire").offset().top
-        }, 1000);
+        //$('html, body').animate({
+        //    scrollTop: $("#availHire").offset().top
+        //}, 1000);
+        
+        window.location.assign("about_me#hire");
     });
 
     $("#closeBox").click(function() {
